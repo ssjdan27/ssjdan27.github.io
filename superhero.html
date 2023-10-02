@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Time!</title>
+
+    <style>
+      .heropic {
+        height: 100px;
+      }
+      td,
+      th {
+        border: 2px solid black;
+        padding: 15px;
+      }
+      table {
+        border-spacing: 0px;
+      }
+      th {
+        background-color: gray;
+        font-size: 18px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a:hover {
+        background-color: red;
+      }
+
+      @keyframes animation {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: yellow;
+          left: 300px;
+          top: 0px;
+        }
+        50% {
+          background-color: blue;
+          left: 300px;
+          top: 800px;
+        }
+        75% {
+          background-color: green;
+          left: -300px;
+          top: 800px;
+        }
+        90% {
+          background-color: red;
+          left: -300px;
+          top: 0px;
+        }
+        100% {
+            background-color: blueviolet;
+            left: 0px;
+            top: 0px;
+        }
+      }
+
+      h1 {
+        background-color: white;
+        animation-name: animation;
+        animation-iteration-count: 2;
+        animation-duration: 3s;
+        animation-direction: alternate;
+        position: relative;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>My Superhero Gallery</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Alias</th>
+            <th>Image</th>
+            <th>Superpowers</th>
+            <th>Weaknesses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Spiderman</th>
+            <td>Peter Parker</td>
+            <td>
+              <a href="./images/spiderman.png"
+                ><img
+                  class="heropic"
+                  src="images/spiderman.png"
+                  alt="Spiderman pic"
+              /></a>
+            </td>
+            <td>
+              <ul>
+                <li>Can shoot webs</li>
+                <li>Can sling on webs</li>
+              </ul>
+            </td>
+            <td>Ethyl chloride</td>
+          </tr>
+
+          <tr>
+            <th>Black Panther</th>
+            <td>T'Challa</td>
+            <td>
+              <a href="./images/black-panther.jpeg"
+                ><img
+                  class="heropic"
+                  src="images/black-panther.jpeg"
+                  alt="Black Panther pic"
+              /></a>
+            </td>
+            <td>
+              <ul>
+                <li>Superhumanly acute senses</li>
+                <li>Intense strength</li>
+                <li>Fast reflexes</li>
+              </ul>
+            </td>
+            <td>Father Issues</td>
+          </tr>
+
+          <tr>
+            <th>Ghost Rider</th>
+            <td>Johnny Blaze</td>
+            <td>
+              <a href="./images/ghost-rider.jpg"
+                ><img
+                  class="heropic"
+                  src="images/ghost-rider.jpg"
+                  alt="Ghost Rider pic"
+              /></a>
+            </td>
+            <td>
+              <ul>
+                <li>Superhuman speed</li>
+                <li>Durability</li>
+                <li>Regenerative healing ability</li>
+              </ul>
+            </td>
+            <td>Any weapon crafted in Heaven</td>
+          </tr>
+
+          <tr>
+            <th>Deadpool</th>
+            <td>Wade Wilson Deadpool</td>
+            <td>
+              <a href="./images/deadpool.jpg"
+                ><img
+                  class="heropic"
+                  src="images/deadpool.jpg"
+                  alt="Deadpool pic"
+              /></a>
+            </td>
+            <td>
+              <ul>
+                <li>Fourth wall breaks</li>
+                <li>Master assassin</li>
+                <li>Utilizes devices for teleportation</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Cows</li>
+                <li>Clowns</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        <a href="./index.html"
+          ><img
+            src="./images/button_take-me-home.png"
+            alt="picture of home button"
+        /></a>
+      </p>
+    </div>
+  </body>
+</html>
