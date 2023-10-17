@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(229,204,255);
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 10%;
+}
+
+.uncBear {
+   height: auto;
+   width: 20em;
+   padding-bottom: 10pt;
+}
+
+.title {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.footnote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: rgb(138,43,226)
+}
