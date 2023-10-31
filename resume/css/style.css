@@ -1,0 +1,36 @@
+body {
+    background-color: #6495ED;
+}
+
+* {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 10%;
+    width: 160px;
+}
+
+h2 {
+    color: gold;
+}
+
+section {
+    border: 5px solid black;
+    margin: 10px;
+}
+
+nav {
+    border: 8px solid black;
+}
+
+.date {
+    color: white;
+}
