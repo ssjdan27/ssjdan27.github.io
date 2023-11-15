@@ -77,6 +77,10 @@ a:hover {
   background-color: red;
 }
 
+a {
+  text-align: center;
+}
+
 .superhero {
   text-align: center;
 }
