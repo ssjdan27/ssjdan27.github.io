@@ -1,75 +1,87 @@
 body {
-    background-color: rgb(229,204,255);
+  background-color: rgb(229, 204, 255);
 }
 
 img {
-    margin: auto;
-    display: block;
-    border-radius: 10%;
+  margin: auto;
+  display: block;
+  border-radius: 10%;
 }
 
-.uncBear, .inspire {
-   height: auto;
-   width: 20em;
-   padding-bottom: 10pt;
+.uncBear,
+.inspire {
+  height: auto;
+  width: 20em;
+  padding-bottom: 10pt;
 }
 
-.title, h2, h3, p{
-    text-align: center;
+.title,
+h2,
+h3,
+p {
+  text-align: center;
 }
 
 ul {
-    text-align: center;
+  text-align: center;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li {
-    display: inline;
-    padding: 1em;
+  display: inline;
+  padding: 1em;
 }
 
 .footnote {
-    font-style: italic;
-    text-align: center;
-    margin-top: 100px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 100px;
 }
 
 h1 {
-    color: rgb(138,43,226)
+  color: rgb(138, 43, 226)
 }
 
 .heropic {
-    height: 100px;
-  }
-  td,
-  th {
-    border: 2px solid black;
-    padding: 15px;
-  }
-  table {
-    border-spacing: 0px;
-    width: 100%;
-    margin-bottom: 1rem;
-    background-color: transparent;
-  }
-  th {
-    background-color: gray;
-    font-size: 18px;
-  }
+  height: 100px;
+}
 
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+td,
+th {
+  border: 2px solid black;
+  padding: 15px;
+}
 
-  a:hover {
-    background-color: red;
-  }
+table {
+  border-spacing: 0px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
 
-  .superhero {
-    text-align: center;
-  }
+th {
+  background-color: gray;
+  font-size: 18px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a:hover {
+  background-color: red;
+}
+
+.superhero {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
