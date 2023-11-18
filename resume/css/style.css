@@ -18,10 +18,6 @@ img {
     width: 160px;
 }
 
-h2 {
-    color: gold;
-}
-
 section {
     border: 5px solid black;
     margin: 10px;
@@ -31,6 +27,6 @@ nav {
     border: 8px solid black;
 }
 
-.date {
-    color: white;
+h3 {
+    
 }
