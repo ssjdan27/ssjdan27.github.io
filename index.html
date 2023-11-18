@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Daniel's Repository <img src="images/pixel_computer.jpg" width="30" height="30" alt="logo picture" class="d-inline-block align-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,22 +25,54 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./resume/index.html">Resume</a>
+            <a class="nav-link" href="/amuse.html">Amuse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./educate.html">Educate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./inspire.html">Inspire</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./profile.html">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="./superhero.html">Superhero</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Coming Soon</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <h1 class="title display-1">Navigation Links</h1>
+  <h1 class="title display-1">Home Page</h1>
 
   <img src="./images/UNC_Bear.png" alt="Logo of UNC Bear" class="uncBear img-responsive">
+
+  <h2>Welcome to my programming journey!</h2>
+  <br>
+
+  <pre><code>section .data
+    hello db 'Hello, World!', 0
+
+section .text
+    global _start
+
+_start:
+    ; write Hello, World! to stdout (file descriptor 1)
+    mov eax, 4         ; syscall number for sys_write
+    mov ebx, 1         ; file descriptor 1 (stdout)
+    mov ecx, hello     ; pointer to the message
+    mov edx, 13        ; message length
+    int 0x80           ; make system call
+
+    ; exit the program (exit code 0)
+    mov eax, 1         ; syscall number for sys_exit
+    xor ebx, ebx       ; exit code 0
+    int 0x80           ; make system call
+</code></pre>
   
 </body>
 
