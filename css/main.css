@@ -97,4 +97,11 @@ pre {
   text-align: center;
 }
 
+.table td,
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
 
